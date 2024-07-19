@@ -1,0 +1,107 @@
+.sidebar {
+    background-color: #376b5e;
+    display: flex;
+    align-items: end;
+    position: fixed;
+    left: 0px;
+    top: 70px;
+    bottom: 0px;
+    width: 70px;
+    z-index: 100;
+    box-shadow: 0px 2px 9px rgba(87, 87, 87, 0.613)
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding: 15px 10px;
+    width: 50px;
+}
+
+.social-media-icon {
+    height: 25px;
+    width: 25px;
+    margin-bottom: 12px;
+}
+
+.facebook {
+    position: relative;
+
+}
+
+.facebook .facebook-tooltip {
+    background-color: rgba(128, 128, 128, 0.823);
+    color: white;
+    font-size: 11px;
+    font-weight: 400;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 3px;
+    position: absolute;
+    right: -90px;
+    bottom: 15px;
+    opacity: 0;
+    transition: opacity 0.3s; 
+}
+
+.facebook:hover .facebook-tooltip {
+    opacity: 1;
+}
+
+.X {
+    position: relative;
+
+}
+
+.X .x-tooltip {
+    background-color: rgba(128, 128, 128, 0.823);
+    color: white;
+    font-size: 11px;
+    font-weight: 400;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 3px;
+    position: absolute;
+    right: -50px;
+    bottom: 15px;
+    opacity: 0;
+    transition: opacity 0.3s; 
+}
+
+.X:hover .x-tooltip {
+    opacity: 1;
+}
+
+.linkedin {
+    position: relative;
+
+}
+
+.linkedin .linkedin-tooltip {
+    background-color: rgba(128, 128, 128, 0.823);
+    color: white;
+    font-size: 11px;
+    font-weight: 400;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 3px;
+    position: absolute;
+    right: -84px;
+    bottom: 13px;
+    opacity: 0;
+    transition: opacity 0.3s; 
+}
+
+.linkedin:hover .linkedin-tooltip {
+    opacity: 1;
+}
+
+.domain {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    transform: rotate(-90deg);
+    margin-bottom: 65px;
+}

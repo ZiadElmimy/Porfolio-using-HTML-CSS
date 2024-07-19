@@ -1,0 +1,14 @@
+body {
+    background-color: white;
+    font-family: Roboto, Arial;
+    margin: 0;
+    padding-top: 280px;
+    padding-left: 87px;
+    padding-right: 20px;
+    padding-bottom: 200px;
+}
+
+img {
+    cursor: pointer;
+    transition: height 0.3s, width 0.3s;
+}

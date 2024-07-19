@@ -1,0 +1,164 @@
+.header {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    height: 70px;
+    box-shadow: 0px 2px 10px rgba(128, 128, 128, 0.609);
+    z-index: 100;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 40px;
+    margin-left: 15px;
+    width: 150px;
+}
+.logo {
+    height: 70px;
+    width: 70px;
+    padding: -12px -12px;
+    margin-left: 20px;
+}
+
+.menu-icon {
+    height: 32px;
+    width: 32px;
+    border: none;
+    border-radius: 23px;
+    cursor: pointer;
+    padding: 4px 4px;
+    transition: background-color 0.3s;
+}
+
+.menu-icon:hover {
+    background-color: rgba(223, 223, 223, 0.429);
+}
+
+.right-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    flex: 1;
+    max-width: 650px;
+}
+
+.search {
+    position: relative;
+    display: flex;
+    flex: 1;
+}
+
+.search-bar {
+    background-color: white;
+    color: #376e5b;
+    border: 2px;
+    border-style: solid;
+    border-color: #376e5bcb;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    flex: 1;
+    width: 0px;
+    height: 41px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 25px;
+}
+
+.search-bar::placeholder {
+    font-size: 16px;
+    font-weight: 600;
+    color: #376e5bb7;
+}
+
+.search-button {
+    background-color: #376e5b;
+    border: none;
+    padding: 10px 35px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-left: -2px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-button:hover {
+    background-color: #376e5bc9;
+}
+
+.search-icon {
+    height: 23px;
+    width: 23px;
+    margin-left: -8px;
+}
+
+.search .search-tooltip {
+    background-color: rgba(128, 128, 128, 0.823);
+    color: white;
+    font-size: 11px;
+    font-weight: 400;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 3px;
+    position: absolute;
+    bottom: -39px;
+    right: 20px;
+    opacity: 0;
+    transition: opacity 0.3s; 
+}
+
+.search:hover .search-tooltip {
+    opacity: 1;
+}
+
+.contact {
+    position: relative;
+}
+.contact-button {
+    background-color: rgba(255, 255, 255, 0);
+    color: #376e5b;
+    padding: 14px 18px;
+    border: 2px;
+    border-style: solid;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition:  background-color 0.3s, border-color 0.3s;
+    margin-left: 20px;
+}
+
+.contact-button:hover {
+    background-color: #376e5b;
+    color: white;
+    border-color: #376e5b;
+}
+
+.contact .contact-tooltip {
+    background-color: rgba(128, 128, 128, 0.823);
+    color: white;
+    font-size: 11px;
+    font-weight: 400;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 3px;
+    position: absolute;
+    bottom: -37px;
+    right: 27px;
+    opacity: 0;
+    transition: opacity 0.3s; 
+}
+
+.contact:hover .contact-tooltip {
+    opacity: 1;
+}

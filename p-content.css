@@ -1,0 +1,197 @@
+.about {
+    background-color: rgb(230, 191, 92);
+    display: flex;
+    flex-direction: row;
+    border: none;
+    border-radius: 20px;
+    flex: 1;
+    position: relative;
+    right: 0px;
+    align-items: bottom;
+    justify-content: space-between;
+    padding: 60px 30px;
+    font-family: Roboto;
+}
+
+.left-info {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    row-gap: 40px;
+}
+.info {
+    display: flex;
+    flex: 1;
+    max-width: 750px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    padding-left: 20px;
+}
+
+.name {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0;
+    padding-left: 25px;
+    color: white;
+}
+
+.positions {
+    display: flex;
+    color: white;
+    font-weight: 500;
+    margin: 0px;
+    padding-left: 20px;
+}
+
+.avatar {
+    position: absolute;
+    right: 0px;
+    bottom: -4px;
+}
+
+.picture {
+    height: 500px;
+}
+
+.right-info {
+    margin-left: 350px;
+}
+
+.projects {
+    margin-top: 80px;
+}
+
+.flashcards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 8px;}
+
+.collection_1 {
+    display: grid;
+    grid-template-columns: 225px 1fr;
+    column-gap: 15px;
+}
+
+.coll_1_left {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 17px;
+}
+
+.collection_2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 17px;
+}
+
+.collection_3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+}
+
+@media (max-width: 842px) {
+    .flashcards {
+        grid-template-columns: 556px 1fr;
+    }
+}
+
+.photo-card1 {
+    height: 150px;
+    border: none;
+    border-radius: 10px;
+}
+
+.photo-card1:hover {
+    height: 155px;
+    border-radius: 12px;
+}
+
+.photo-card2 {
+    height: 321px;
+    width: 418px;
+    object-fit: cover;
+    border: none;
+    border-radius: 10px;
+}
+
+.photo-card2:hover {
+    height: 326px;
+    width: 423px;
+    border-radius: 12px;
+}
+
+.photo-card3 {
+    height: 150px;
+    width: 224.79px;
+    object-fit: cover;
+    border: none;
+    border-radius: 10px;
+}
+
+.photo-card3:hover {
+    height: 155px;
+    width: 229.79px;
+    border-radius: 12px;
+}
+
+.photo-card4 {
+    height: 321px;
+    width: 303px;
+    border: none;
+    border-radius: 10px;
+}
+
+.photo-card4:hover {
+    height: 326px;
+    width: 308px;
+    border-radius: 12px;
+}
+
+.photo-card5 {
+    height: 321px;
+    border: none;
+    border-radius: 10px;
+}
+
+.photo-card5:hover {
+    height: 326px;
+    border-radius: 12px;
+}
+
+.photo-card6 {
+    height: 150px;
+    width: 160px;
+    border: none;
+    border-radius: 10px;
+}
+
+.photo-card6:hover {
+    height: 155px;
+    width: 165px;
+    border-radius: 12px;
+}
+
+.photo-card7 {
+    height: 150px;
+    width: 160px;;
+    object-fit: cover;
+    border: none;
+    border-radius: 10px;
+}
+
+.photo-card7:hover {
+    height: 155px;
+    width: 165px;
+    border-radius: 12px;
+}
+
+
+.title {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
